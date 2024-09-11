@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.png";
+import equitylens from "../assets/projects/EquityLens.png";
 
 export const HERO_CONTENT = ` I'm passionate about technology and software development, and this portfolio showcases some of my projects and experiences. Throughout my academic journey, I've gained valuable skills in programming, problem-solving, and teamwork. I'm always eager to learn and explore new technologies to stay updated in this ever-evolving field. Feel free to browse through my projects and get in touch if you have any questions or opportunities for collaboration :)`;
 
@@ -33,6 +33,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "EquityLens",
+    image: equitylens,
+    description:
+      "EquityLens is an AI-powered tool designed to assist in equity research by analyzing news articles and providing insightful answers to user queries. The tool leverages advanced language models and vector databases to deliver accurate and relevant information.",
+    technologies: ["Python", "Google Gemini", "FAISS", "Langchain", "Streamlit"],
+    repo:"https://github.com/Ilham-Syed/EquiLens"
+  },
   {
     title: "Wellness Hub",
     image: project1,

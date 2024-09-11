@@ -50,7 +50,7 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              href="https://drive.google.com/file/d/1S8SIlCtrQ34HqwVrrUg2rf6Qriet0o96/view"
+              href="https://drive.google.com/drive/folders/1MRFTKWYAkY_GHM7nKAT7Jgdz04W9DvMk?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-grey-500 font-bold py-2 px-1 rounded border-b transition duration-300 hover:shadow-lg hover:bg-gray-900 sm:text-sm sm:mb-2"
