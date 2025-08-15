@@ -6,15 +6,22 @@ import equitylens from "../assets/projects/EquityLens.png";
 
 export const HERO_CONTENT = ` I'm passionate about technology and software development, and this portfolio showcases some of my projects and experiences. Throughout my academic journey, I've gained valuable skills in programming, problem-solving, and teamwork. I'm always eager to learn and explore new technologies to stay updated in this ever-evolving field. Feel free to browse through my projects and get in touch if you have any questions or opportunities for collaboration :)`;
 
-export const ABOUT_TEXT = `As a fourth-year student eager to dive into the world of technology, I have a unique blend of enthusiasm, adaptability, and a strong foundation in programming fundamentals. I am a dedicated and versatile student with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js, MySQL, PostgreSQL, and MongoDB. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am currently working as a Junior Analyst at ISS-STOXX where my main work revolves around Machine Learning and Data Analysis. In addition to my technical skills, I have experience in project management and team collaboration, having led various projects during my academic tenure. I am passionate about leveraging technology to solve real-world problems and continuously strive to enhance my skills in software development and data science.`;
 
 export const EXPERIENCES = [
   {
-    year: "February'23 - January'24",
-    role: "Creativity Lead",
-    company: "VESIT Enterprenuership Cell",
-    description: `Worked on various projects and events to promote entrepreneurship and innovation among students. Was part of a team of designers and developers to create digital content and marketing materials.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "July'25 - Present",
+    role: "Junior Analyst",
+    company: "ISS-STOXX",
+    description: `Currently working as a Junior Analyst at ISS-STOXX, I am mostly involved in creating RAG (Retrieval Augmented Generation) pipelines for extracting various information from proxy cards. I am also working on automating the process of extracting data from proxy cards using AI and machine learning techniques.`,
+    technologies: ["Python", "Langchain", "Pandas", "Postgres","Kafka","Redis"],
+  },
+  {
+    year: "November'23 - Januraury'24",
+    role: "Project Intern",
+    company: "Oil And Natural Gas Coorporation",
+    description: `Developed a Network Attached Storage(NAS) from scratch. Worked on the design, development, and testing of the NAS. Learned about networking protocols, file systems, data storage solutions and ERP software . Had exposure to how large scale projects are managed and executed.`,
+    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
   },
   {
     year: "June'23 - December'24",
@@ -24,12 +31,12 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
-    year: "November'23 - Januraury'24",
-    role: "Project Intern",
-    company: "Oil And Natural Gas Coorporation",
-    description: `Developed a Network Attached Storage(NAS) from scratch. Worked on the design, development, and testing of the NAS. Learned about networking protocols, file systems, data storage solutions and ERP software . Had exposure to how large scale projects are managed and executed.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
+    year: "February'23 - January'24",
+    role: "Creativity Lead",
+    company: "VESIT Enterprenuership Cell",
+    description: `Worked on various projects and events to promote entrepreneurship and innovation among students. Was part of a team of designers and developers to create digital content and marketing materials.`,
+    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+  }
 ];
 
 export const PROJECTS = [
@@ -77,6 +84,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Kharghar, Mumbai, Maharashtra, India",
-  phoneNo: "9137509538",
   email: "ilhamsyed1310@gmail.com",
 };
