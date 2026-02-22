@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
+import project2 from "../assets/projects/ATS_logo.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import equitylens from "../assets/projects/EquityLens.png";
@@ -13,8 +13,15 @@ export const EXPERIENCES = [
     year: "July'25 - Present",
     role: "Junior Analyst",
     company: "ISS-STOXX",
-    description: `Currently working as a Junior Analyst at ISS-STOXX, I am mostly involved in creating RAG (Retrieval Augmented Generation) pipelines for extracting various information from proxy cards. I am also working on automating the process of extracting data from proxy cards using AI and machine learning techniques.`,
-    technologies: ["Python", "Langchain", "Pandas", "Postgres","Kafka","Redis"],
+    description: `Currently working as a Junior Analyst at ISS-STOXX, I am part of the team responsible for developing a RAG (Retrieval-Augmented Generation) pipeline for processing and analyzing large documents.`,
+    technologies: [
+      "Python",
+      "Langchain",
+      "Pandas",
+      "Postgres",
+      "Kafka",
+      "Redis",
+    ],
   },
   {
     year: "November'23 - Januraury'24",
@@ -36,7 +43,7 @@ export const EXPERIENCES = [
     company: "VESIT Enterprenuership Cell",
     description: `Worked on various projects and events to promote entrepreneurship and innovation among students. Was part of a team of designers and developers to create digital content and marketing materials.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  }
+  },
 ];
 
 export const PROJECTS = [
@@ -45,8 +52,14 @@ export const PROJECTS = [
     image: equitylens,
     description:
       "EquityLens is an AI-powered tool designed to assist in equity research by analyzing news articles and providing insightful answers to user queries. The tool leverages advanced language models and vector databases to deliver accurate and relevant information.",
-    technologies: ["Python", "Google Gemini", "FAISS", "Langchain", "Streamlit"],
-    repo:"https://github.com/Ilham-Syed/EquiLens"
+    technologies: [
+      "Python",
+      "Google Gemini",
+      "FAISS",
+      "Langchain",
+      "Streamlit",
+    ],
+    repo: "https://github.com/Ilham-Syed/EquiLens",
   },
   {
     title: "Wellness Hub",
@@ -54,31 +67,40 @@ export const PROJECTS = [
     description:
       "A platform for managing mental and physical health, with features such as meditation sessions, workout plans, and progress tracking.",
     technologies: ["HTML", "Tailwind CSS", "React", "Node.js", "MongoDB"],
-    repo:"https://devfolio.co/projects/wellness-hub-fec2"
+    repo: "https://devfolio.co/projects/wellness-hub-fec2",
   },
   {
     title: "Alumni Tracking System",
     image: project2,
     description:
       "A Mobile application which enabled the students to connect with the alumni of the college. The app had features like job postings, mentorship programs, and event management.",
-    technologies: ["Flutter","Firebase"],
-    repo:"https://github.com/Ilham-Syed/Flutter-alumni-portal"
+    technologies: ["Flutter", "Firebase"],
+    repo: "https://github.com/Ilham-Syed/Flutter-alumni-portal",
   },
   {
     title: "Yelp Camp - A website for Booking Campgrounds",
     image: project3,
     description:
       "A platform for booking campgrounds, with features like user authentication, campground reviews, and campground creation.",
-    technologies: ["HTML", "CSS", "NodeJs", "ExpressJs","Bootstrap"],
-    repo:"https://github.com/Ilham-Syed/Yelp-Camp"
+    technologies: ["HTML", "CSS", "NodeJs", "ExpressJs", "Bootstrap"],
+    repo: "https://github.com/Ilham-Syed/Yelp-Camp",
   },
   {
-    title: "Cognitive Care-A comprehensive website for early detection of Alzheimer's Disease",
+    title:
+      "Cognitive Care-A comprehensive website for early detection of Alzheimer's Disease",
     image: project4,
     description:
       "The Website uses Deep learning models like CNN and transfer learning methods for early detection and classification of Alzheimer's Disease. The website had features like user authentication, patient data management, cognitive games and a Comminty Forum.",
-    technologies: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB", "Tensorflow", "Keras", "Python"],
-    repo:"https://github.com/Rishi-Kokil/Cognitive-Care"
+    technologies: [
+      "ReactJs",
+      "NodeJs",
+      "ExpressJs",
+      "MongoDB",
+      "Tensorflow",
+      "Keras",
+      "Python",
+    ],
+    repo: "https://github.com/Rishi-Kokil/Cognitive-Care",
   },
 ];
 
@@ -86,3 +108,23 @@ export const CONTACT = {
   address: "Kharghar, Mumbai, Maharashtra, India",
   email: "ilhamsyed1310@gmail.com",
 };
+
+export const PUBLICATIONS = [
+  {
+    title: "Innovative Approach for Alzheimer's Disease Detection",
+    authors: "Ilham Syed, Amit Murkalmath, Rishi Kokil, Pavan Thakur, Dr. Gresha Bhatia",
+    journal: "Frontiers in Health Informatics ISSN-Online: 2676-7104",
+    year: "2024",
+    description:
+      "The Research  paper  proposes  a holistic approach to Alzheimer's disease detection and management. Leveraging deep learning techniques,  particularly  transfer  learning.",
+    link: "https://healthinformaticsjournal.com/index.php/IJMI/article/view/64/67",
+  },
+  {
+    title: "Cognitive Care: Comprehensive Detection and Management of Alzheimer's Disease",
+    authors: "Ilham Syed, Amit Murkalmath, Rishi Kokil, Pavan Thakur, Dr. Gresha Bhatia",
+    journal: "Alochna Ugc Care List Group – I Journal (ISSN No :2231-6329)",
+    year: "2024",
+    description: "This paper is the predecessor to the above mentioned paper and was published in a local journal. It was the first version of the research paper and had a more basic approach to Alzheimer's disease detection.",
+    link: "https://alochana.org/wp-content/uploads/21-AJ2408.pdf",
+  }
+];

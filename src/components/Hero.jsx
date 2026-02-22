@@ -17,6 +17,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
+  <div id="hero-section" className="border-b border-neutral-900 pb-4 lg:mb-35">
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
@@ -36,7 +37,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Fourth Year Computer Science Student
+              Software Developer
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -73,6 +74,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 
